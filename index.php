@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <a href= index.php?nom=index.php?semaine=12></a>
+  <a href= index.php?nom=index.php?batiment=12&salle=101></a>
   <title>Exo5-php-Les-fonctions</title>
 </head>
 <body>
@@ -49,11 +49,11 @@
       ?>
 
   <p>##Exercice 6</p>
-  <p>
-    <?php
-
-    ?>
-  </p>
+    <p>index.php?batiment=12&salle=101</p>
+    <p>http://localhost:8888/html/php/Exo6-php-Les-parametres-Url/index.php?batiment=12&salle=101</p>
+      <?php
+        echo $_GET['semaine'];
+      ?>
 
 </body> 
 </html>
